@@ -1,0 +1,34 @@
+{
+  "name": "good-code-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=.jestrc --verbose",
+    "test-coverage": "npm run test -- --coverage",
+    "test-watch": "npm run test -- --watch",
+    "lint": "eslint src",
+    "plato": "plato -r -e .eslintrc -d report src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomejerry/good-code-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesomejerry/good-code-setup/issues"
+  },
+  "homepage": "https://github.com/awesomejerry/good-code-setup#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.13.1",
+    "jest": "^18.1.0",
+    "plato": "^1.7.0"
+  }
+}
